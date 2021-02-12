@@ -35,8 +35,8 @@ int main() {
   for(int i = 0;i < quantidade;i++){
     for(int j = 0;j < quantidadeB;j++){
       if(vetA[i].alvoA == busca){
-        igualdade =1;
         if(vetB[j].nomeVil == vetA[i].vilao){
+          igualdade = 1;
           cout << vetB[j].plano << " " << vetB[j].dano << endl; 
         }
       }
